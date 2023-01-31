@@ -84,3 +84,31 @@ a:hover {
 .hero-cta {
     align-self: flex-end;
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(7,5,20,1) 0%, rgba(19,21,119,0.16010154061624648) 56%);
+}
+.container-header {
+    display: flex;
+}
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-right: 64px;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+.menu ul li {
+    margin-right: 24px;
+}
+.menu ul li a {
+    font-size: 24px;
+}
