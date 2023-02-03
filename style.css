@@ -112,3 +112,12 @@ a:hover {
 .menu ul li a {
     font-size: 24px;
 }
+
+.works-menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.works-menu ul li {
+    margin-right: 24px;
+}
