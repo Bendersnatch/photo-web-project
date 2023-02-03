@@ -25,6 +25,7 @@ h2 {
     font-size: 64px;
     font-weight: 600;
     line-height: 75px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -67,6 +68,11 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     max-width: 1140px;
+}
+
+section {
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .hero {
@@ -120,4 +126,13 @@ a:hover {
 
 .works-menu ul li {
     margin-right: 24px;
+}
+
+.works {}
+
+.works-item{}
+
+.works-item-tags{
+    font-size: 24px;
+    color: #beda10;
 }
