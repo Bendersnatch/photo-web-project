@@ -47,6 +47,11 @@ a:hover {
     color: #beda10;
 }
 
+p {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
 .button {
     background-color: #8279bb; 
     color: white;
@@ -135,4 +140,41 @@ section {
 .works-item-tags{
     font-size: 24px;
     color: #beda10;
+}
+
+.work-info {
+    display: flex;
+}
+
+.work-info-label {
+    width: 200px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.work-info-content {
+    width: 70%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images img {
+    margin-bottom: 36px;
+}
+
+.image-right {
+    align-self: flex-end;
+}
+
+.image-left {
+    align-self: flex-start;
 }
