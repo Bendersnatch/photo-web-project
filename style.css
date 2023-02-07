@@ -135,7 +135,10 @@ section {
 
 .works {}
 
-.works-item{}
+.works-item{
+    margin-bottom: 96px;
+
+}
 
 .works-item-tags{
     font-size: 24px;
@@ -177,4 +180,20 @@ section {
 
 .image-left {
     align-self: flex-start;
+}
+
+.contacts {
+
+}
+
+.contacts-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-about,
+.contacts-form {
+    width: 40%;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
