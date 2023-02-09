@@ -131,10 +131,13 @@ section {
     left: 0;
     width: 100%;
     background: linear-gradient(180deg, rgba(7,5,20,1) 0%, rgba(19,21,119,0.16010154061624648) 56%);
+    z-index: 5;
 }
-.container-header {
+
+.header-container {
     display: flex;
 }
+
 .logo {
     font-size: 32px;
     font-weight: 600;
@@ -151,6 +154,11 @@ section {
 }
 .menu ul li a {
     font-size: 24px;
+}
+
+.works-menu {
+    position: sticky;
+    top: -15px;
 }
 
 .works-menu ul {
@@ -235,4 +243,10 @@ section {
 
 .copyright {
     color: gray;
+}
+
+.anchors {
+    visibility: hidden;
+    position: relative;
+    top: -150px;
 }
