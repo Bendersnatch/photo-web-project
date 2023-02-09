@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,15 +18,11 @@
       <div class="logo">Valery Rankova</div>
       <nav class="menu">
         <ul>
-            <li><a href="#">Works</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
     </header>
-
-    
-        
-    
 
     <section class="hero">
         <div class="container hero-content">
@@ -38,19 +35,19 @@
     <section class="works-menu">
         <div class="container">
             <ul>
-                <li><a class="button" href="1">Though the glass</a></li>
+                <li><a class="button" href="1">Sun and shadows</a></li>
                 <li><a class="button" href="1">Neon lights</a></li>
-                <li><a class="button" href="1">Light trails</a></li>
+                <li><a class="button" href="1">Grange</a></li>
             </ul>
         </div>
 
     </section>
     
-    <section class="works">
+    <section id="works" class="works">
         <div class="container">
             <div class="works-item">
-                <div class="works-item-tags">Street Photography / Milan / 2020-2022 </div>
-                <h2>Though the glass</h2>
+                <div class="works-item-tags">Street Photography / Milan / 2021-2023 </div>
+                <h2>Sun and shadows</h2>
 
                 <div class="work-info">
                     <div class="work-info-label">About</div>
@@ -78,16 +75,40 @@
 
         </div>
 
-        <section class="contacts-content">
-            <div class="container">
+        <section id="contacts" class="contacts">
+            <div class="container contacts-content">
                 <div class="contacts-about">
                     <h2>About me</h2>
                     <p>bla bla bla </p>
                 </div>
-                <div class="contacts-form">bla bla</div>
+                <div class="contacts-form">
+                    <form action="">
+                        <label class="input-label" for="">Full Name</label>
+                        <input class="input-field" type="text" placeholder="Name Surname">
+
+                        <label class="input-label" for="">E-mail</label>
+                        <input class="input-field" type="email" placeholder="blabla.com">
+
+                        <label class="input-label" for="">Subject</label>
+                        <input class="input-field" type="text" placeholder="example subject">
+
+                         
+                        <label class="input-label" for="">Message <span>Optional</span> </label>
+                        <textarea class="input-textarea" placeholder="write here"></textarea>
+
+                        <button class="button">Send</button>
+                    </form>
+                </div>
             </div>
 
         </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="copyright">Valery Rankova copyright 2021</div>
+
+            </div>
+        </footer>
     </section>
 </body>
 </html>
