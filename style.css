@@ -301,3 +301,17 @@ section {
     position: relative;
     top: -150px;
 }
+
+.back-to-top {
+    background-image: url('images/arrowpng.jpg');
+    background-repeat: no-repeat;
+    background-color: #786eb4;
+    background-position: center center;
+    border-radius: 50%;
+    height: 80px;
+    width: 90px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
